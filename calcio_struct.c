@@ -21,7 +21,7 @@ int main(){
         scanf("%s\n", &calciatori[i].squadra);
     }
 
-    printf("I calciatori che appartengono alla squadra MILAN sono:");
+    printf("I calciatori che appartengono alla squadra MILAN sono:\n");
 
     for (i = 0; i < DIM; i++)
     {
@@ -33,7 +33,7 @@ int main(){
         }
     }
 
-    printf("I calciatori che hanno il nome che inizia con la lettera C sono:");
+    printf("I calciatori che hanno il nome che inizia con la lettera C sono:\n");
     for (i = 0; i < DIM; i++)
     {
         if (calciatori[i].nome[0] == 'C')
